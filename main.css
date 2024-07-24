@@ -64,6 +64,18 @@ header img{
     height: 60px;
 }
 
+
+header .logo-container{
+    display: flex;
+    align-items: center;
+}
+
+
+header .logo{
+    height: 60px;
+    margin-right: 16px;
+}
+
 .brands_list img{
     height: 24px;
 }
@@ -117,14 +129,28 @@ section p{
 }
 
 
-section #jogos{
+section .aba-vendas{
+    display: flex;
+    flex-wrap: wrap;
+margin-left: 315px;
+}
+
+
+section #jogos .container{
     padding: 20px;
     text-align: center;
     max-width: 800px;
     width: 100%;
 }
 
-section #jogos h2{
+
+#jogos .game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#jogos h2{
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 24px;
